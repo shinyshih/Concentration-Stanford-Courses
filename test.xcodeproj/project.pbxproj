@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		773DC6BF1FBF121400D75233 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773DC6BE1FBF121400D75233 /* Concentration.swift */; };
+		773DC6C11FBF121E00D75233 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773DC6C01FBF121E00D75233 /* Card.swift */; };
 		77FC6A681FB57B2300F6B80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FC6A671FB57B2300F6B80E /* AppDelegate.swift */; };
 		77FC6A6A1FB57B2300F6B80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FC6A691FB57B2300F6B80E /* ViewController.swift */; };
 		77FC6A6D1FB57B2300F6B80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FC6A6B1FB57B2300F6B80E /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		773DC6BE1FBF121400D75233 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		773DC6C01FBF121E00D75233 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		77FC6A641FB57B2300F6B80E /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FC6A671FB57B2300F6B80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77FC6A691FB57B2300F6B80E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		773DC6BD1FB9C40900D75233 /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+				77FC6A671FB57B2300F6B80E /* AppDelegate.swift */,
+				77FC6A6E1FB57B2300F6B80E /* Assets.xcassets */,
+				77FC6A701FB57B2300F6B80E /* LaunchScreen.storyboard */,
+			);
+			path = supporting;
+			sourceTree = "<group>";
+		};
 		77FC6A5B1FB57B2300F6B80E = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +111,12 @@
 		77FC6A661FB57B2300F6B80E /* test */ = {
 			isa = PBXGroup;
 			children = (
-				77FC6A671FB57B2300F6B80E /* AppDelegate.swift */,
 				77FC6A691FB57B2300F6B80E /* ViewController.swift */,
 				77FC6A6B1FB57B2300F6B80E /* Main.storyboard */,
-				77FC6A6E1FB57B2300F6B80E /* Assets.xcassets */,
-				77FC6A701FB57B2300F6B80E /* LaunchScreen.storyboard */,
+				773DC6BE1FBF121400D75233 /* Concentration.swift */,
+				773DC6C01FBF121E00D75233 /* Card.swift */,
 				77FC6A731FB57B2300F6B80E /* Info.plist */,
+				773DC6BD1FB9C40900D75233 /* supporting */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -261,6 +275,8 @@
 			files = (
 				77FC6A6A1FB57B2300F6B80E /* ViewController.swift in Sources */,
 				77FC6A681FB57B2300F6B80E /* AppDelegate.swift in Sources */,
+				773DC6BF1FBF121400D75233 /* Concentration.swift in Sources */,
+				773DC6C11FBF121E00D75233 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ning.test;
@@ -441,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ning.test;
